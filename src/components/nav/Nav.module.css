@@ -27,3 +27,8 @@
 .nav > ul > li > p {
   color: var(--color-accent);
 }
+@media (max-width: 768px) {
+  .nav {
+    display: none;
+  }
+}

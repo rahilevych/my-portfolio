@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { Fira_Code } from 'next/font/google';
 import '../styles/variables.css';
 import '../styles/globals.css';
+import React from 'react';
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -10,14 +11,13 @@ export const metadata: Metadata = {
 
 const firaCode = Fira_Code({
   subsets: ['latin'],
-  weight: ['300', '400', '500', '600', '700'],
 });
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
     <html lang='en'>
       <body className={firaCode.className}>{children}</body>

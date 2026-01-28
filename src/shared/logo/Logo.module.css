@@ -1,0 +1,8 @@
+.logo {
+  display: flex;
+  gap: 5px;
+}
+.logo p {
+  color: #ffffff;
+  font-weight: 700;
+}

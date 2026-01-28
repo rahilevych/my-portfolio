@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: var(--color-bg);
+}
+
+.wrapper {
+  display: flex;
+  flex: column;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.container {
+  max-width: 1200px;
+  width: 1200px;
+  margin: 0 auto;
+}
+main {
+  flex: 1;
+  padding: 32px;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}

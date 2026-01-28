@@ -1,5 +1,14 @@
-import styles from './page.module.css';
+import { Header } from '@/components/header/Header';
 
 export default function Home() {
-  return <div className={styles.page}></div>;
+  return (
+    <div>
+      <div className='wrapper'>
+        <div className='container'>
+          <Header />
+          <main className='main'></main>
+        </div>
+      </div>
+    </div>
+  );
 }

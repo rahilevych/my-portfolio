@@ -1,0 +1,15 @@
+:root {
+  /* Main colors */
+  --color-bg: #282c33;
+  /* --color-bg-second: #1b2230; */
+  --color-text: #abb2bf;
+  --color-text-hover: #ffffff;
+  --color-text-active: white;
+  /* Accent colors */
+  --color-accent: #42e0d0;
+  --color-accent-hover: #35c9bc;
+  --color-accent-light: #6df2e4;
+  --color-border: rgba(150, 180, 220, 0.45);
+  --color-box-shadow: rgba(66, 224, 208, 0.1);
+  --color-cursor: rgba(40, 80, 130, 0.25);
+}

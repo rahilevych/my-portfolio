@@ -4,6 +4,7 @@ import { SectionTitle } from '../section-title/SectionTitle';
 import styles from './About.module.css';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
+import { Photo } from '../photo/Photo';
 
 export const About = () => {
   return (
@@ -17,13 +18,17 @@ export const About = () => {
     >
       <SectionTitle>About</SectionTitle>
       <div className={styles.content}>
-        <div className={styles.graphic}>
-          <div className={`${styles.dots} ${styles.one}`}></div>
-          <div className={`${styles.dots} ${styles.two}`}></div>
-          <div className={`${styles.square} ${styles.one}`}></div>
-          <div className={`${styles.square} ${styles.two}`}></div>
-          <div className={`${styles.square} ${styles.three}`}></div>
-        </div>
+        <motion.div
+          className={styles.img}
+          initial={{ opacity: 0 }}
+          animate={{
+            opacity: 1,
+            transition: { delay: 1.5, duration: 0.8, ease: 'easeInOut' },
+          }}
+        >
+          <Photo />
+        </motion.div>
+
         <div className={styles.info}>
           <p className={styles.text}>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero

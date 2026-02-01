@@ -1,5 +1,4 @@
 'use client';
-import { Photo } from '../photo/Photo';
 import styles from './Hero.module.css';
 import { motion } from 'framer-motion';
 export const Hero = () => {
@@ -26,9 +25,6 @@ export const Hero = () => {
             dignissimos consequuntur quidem, similique numquam. Ad?
           </p>
         </motion.div>
-        <div>
-          <Photo />
-        </div>
       </div>
     </section>
   );

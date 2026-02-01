@@ -26,10 +26,13 @@
     margin-bottom: 1rem;
   }
   .title div {
-    display: 300px;
+    width: 200px;
   }
 }
 @media (max-width: 500px) {
+  .title {
+    align-self: center;
+  }
   .title div {
     display: none;
   }

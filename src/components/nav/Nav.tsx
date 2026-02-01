@@ -17,7 +17,7 @@ export default function Nav() {
             const isActive = pathname === link.href;
             return (
               <li key={`${link.lang}-${link.href}`}>
-                <p>#</p>
+                <span>.</span>
                 <Link
                   href={link.href}
                   className={isActive ? styles.active : styles.link}

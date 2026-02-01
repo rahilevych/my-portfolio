@@ -10,7 +10,8 @@
 }
 .list > li {
   display: flex;
-  gap: 2px;
+  align-items: center;
+  gap: 5px;
   cursor: pointer;
 }
 .link {
@@ -20,11 +21,14 @@
 .active {
   color: white;
   font-weight: 700;
+  color: var(--color-accent);
 }
 .link:hover {
   color: var(--color-text-hover);
 }
-.nav > ul > li > p {
+.nav > ul > li > span {
+  font-weight: 800;
+  font-size: 24px;
   color: var(--color-accent);
 }
 @media (max-width: 768px) {

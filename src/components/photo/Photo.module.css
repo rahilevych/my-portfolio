@@ -1,0 +1,41 @@
+.container {
+  width: fit-content;
+  height: fit-content;
+  position: relative;
+}
+.img {
+  width: 340px;
+  height: 340px;
+  border-radius: 50%;
+  mix-blend-mode: lighten;
+  position: absolute;
+}
+
+.img img {
+  object-fit: contain;
+  border-radius: 50%;
+}
+.svg {
+  width: 345px;
+  height: 345px;
+}
+@media (max-width: 768px) {
+  .img {
+    width: 300px;
+    height: 300px;
+  }
+  .svg {
+    width: 304px;
+    height: 304px;
+  }
+}
+@media (max-width: 425px) {
+  .img {
+    width: 248px;
+    height: 248px;
+  }
+  .svg {
+    width: 250px;
+    height: 250px;
+  }
+}

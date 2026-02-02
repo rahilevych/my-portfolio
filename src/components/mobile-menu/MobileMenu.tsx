@@ -32,7 +32,6 @@ export const MobileMenu = () => {
         isOpen={isOpen}
         onClick={() => setIsOpen((prev) => !prev)}
       />
-
       <nav className={`${styles.nav} ${isOpen ? styles.open : ''}`}>
         <ul className={styles.list}>
           {navLinks

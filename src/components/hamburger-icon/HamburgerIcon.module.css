@@ -8,6 +8,10 @@
   border: none;
   cursor: pointer;
   padding: 0;
+  position: absolute;
+  right: 20px;
+  top: 30px;
+  transform: translateY(-50%);
 }
 
 .icon span {

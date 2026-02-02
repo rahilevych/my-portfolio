@@ -9,7 +9,10 @@ export const Header = () => {
     <header className={styles.header}>
       <Logo />
       <Nav />
-      <MobileMenu />
+      <div className={styles.menu}>
+        {' '}
+        <MobileMenu />
+      </div>
     </header>
   );
 };

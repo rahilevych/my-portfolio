@@ -30,9 +30,6 @@
   }
 }
 @media (max-width: 500px) {
-  .title {
-    align-self: center;
-  }
   .title div {
     display: none;
   }

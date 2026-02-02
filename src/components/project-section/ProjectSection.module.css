@@ -1,0 +1,21 @@
+.title {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  color: var(--color-text);
+  cursor: pointer;
+  gap: 0.25rem;
+}
+.projects {
+  display: flex;
+  align-items: start;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3rem;
+}

@@ -1,0 +1,50 @@
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-items: start;
+  gap: 1rem;
+}
+.project p {
+  font-size: 96px;
+  font-weight: 800;
+  color: transparent;
+  -webkit-text-stroke: 2px white;
+}
+.project h3 {
+  color: var(--color-accent);
+}
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.list li {
+  color: var(--color-accent);
+}
+.line {
+  width: 100%;
+
+  height: 1px;
+  background-color: #bbb;
+  margin: 1rem 0;
+}
+.buttons {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+}
+.btn {
+  display: flex;
+  padding: 0 !important;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50% !important;
+  width: 50px;
+  height: 50px;
+}
+@media (max-width: 425px) {
+  .project p {
+    font-size: 56px;
+  }
+}

@@ -1,10 +1,12 @@
 :root {
   /* Main colors */
-  --color-bg: #282c33;
+  --color-bg: #1c1c22;
   /* --color-bg-second: #1b2230; */
-  --color-text: #abb2bf;
-  --color-text-hover: #ffffff;
-  --color-text-active: white;
+  --color-text: white;
+  --color-text-list: #abb2bf;
+  --color-text-btn: white;
+  --color-text-btn-hover: var(--color-bg);
+  --color-btn: #27272c;
   /* Accent colors */
   --color-accent: #42e0d0;
   --color-accent-hover: #35c9bc;

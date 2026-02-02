@@ -5,8 +5,10 @@ import styles from './About.module.css';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 import { Photo } from '../photo/Photo';
+import { usePathname } from 'next/navigation';
 
 export const About = () => {
+  const pathname = usePathname();
   return (
     <motion.section
       initial={{ opacity: 0 }}
@@ -43,10 +45,14 @@ export const About = () => {
             dignissimos blanditiis velit fugit, exercitationem expedita eligendi
             facilis saepe! Ad, ducimus nobis?
           </p>
-          <Link href='/about' className={styles.btn}>
-            {' '}
-            <Button type='button'>Read more</Button>
-          </Link>
+          {pathname !== '/about' ? (
+            <Link href='/about' className={styles.btn}>
+              {' '}
+              <Button type='button'>Read more</Button>
+            </Link>
+          ) : (
+            <></>
+          )}
         </div>
       </div>
     </motion.section>

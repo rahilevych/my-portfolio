@@ -1,0 +1,51 @@
+{
+  "nav": {
+    "home": "Start",
+    "about": "Über mich",
+    "projects": "Projekte",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "position": "Fullstack Entwicklerin",
+    "hello": "Hallo ich bin",
+    "about": "Ich bin Fullstack Entwicklerin und begeistere mich dafür, interaktive und responsive Websites zu bauen. Ich achte auf sauberen Code und stabile Architektur. Ich möchte Ideen in digitale Produkte verwandeln, die Menschen gerne verwenden"
+  },
+  "about": {
+    "title": "Über mich",
+    "button": "Mehr lesen",
+    "textShort": "Ich bin Fullstack-Entwickler mit über einem Jahr Erfahrung in der Erstellung von Websites und einem Bachelor-Abschluss in Informatik, ergänzt durch zusätzliche Weiterbuildung in Fullstack-Webentwicklung. Ich spezialisiere mich auf den Aufbau von Fullstack-Anwendungen mit React und TypeScript für das Frontend sowie Node.js und darauf basierenden Frameworks wie NestJS für das Backend.\n\nIch lege großen Wert auf gute Architektur und bemühe mich ständig, sie zu verbessern. Meine Erfahrung in der Entwicklung von Fullstack-Apps hat mir ein solides Verständnis dafür vermittelt, wie Frontend- und Backend-Systeme miteinander interagieren.\n\nIch liebe das Programmieren, weil es endlose Möglichkeiten bietet, Neues zu lernen, Probleme aus verschiedenen Perspektiven zu betrachten und als Entwickler zu wachsen",
+    "textLong": "Ich bin Fullstack-Entwicklerin mit über einem Jahr Erfahrung in der Erstellung von Websites und einem Bachelor-Abschluss in Informatik, ergänzt durch zusätzliche Ausbildung in Fullstack-Webentwicklung. Ich spezialisiere mich auf den Aufbau von Fullstack-Anwendungen mit React und TypeScript für das Frontend sowie Node.js und darauf basierenden Frameworks wie NestJS für das Backend.\n\nIch lege großen Wert auf gute Architektur und bemühe mich ständig, sie zu verbessern. Meine Erfahrung in der Entwicklung von Fullstack-Apps hat mir ein solides Verständnis dafür vermittelt, wie Frontend- und Backend-Systeme miteinander interagieren. Ich liebe das Programmieren, weil es endlose Möglichkeiten bietet, Neues zu lernen, Probleme aus verschiedenen Perspektiven zu betrachten und als Entwicklerin zu wachsen.\n\nAußerhalb der Arbeit lese ich gerne und praktiziere Yoga, und ich lerne Klavier zu spielen. Eine interessante Tatsache über mich: Ich habe kürzlich gelernt, einen Kopfstand zu machen, und mein nächstes Ziel ist, Handstände zu meistern. Ich liebe es, draußen unterwegs zu sein, die Stille der Berge oder des Meeres zu genießen, und ich reise leidenschaftlich gerne, um neue Orte zu entdecken.\n\nFolge mir auf LinkedIn - lass uns verbinden!"
+  },
+  "skills": {
+    "title": "Technische Fähigkeiten"
+  },
+  "contact": {
+    "title": "Kontakt",
+    "header": "Lass uns zusammenarbeiten",
+    "button": "Nachricht senden",
+    "text": "Hast du ein Projekt im Kopf oder eine Frage? Schreib mir gerne - ich freue mich von dir zu hören",
+    "name": "Vorname",
+    "surname": "Nachname",
+    "mesTitle": "Betreff",
+    "message": "Nachricht",
+    "location": "Ort",
+    "address": "Berlin, Deutschland",
+    "errors": {
+      "nameRequired": "Vorname ist erforderlich",
+      "surnameRequired": "Nachname ist erforderlich",
+      "emailRequired": "E-Mail ist erforderlich",
+      "emailInvalid": "Ungültige E-Mail-Adresse",
+      "titleRequired": "Betreff ist erforderlich",
+      "messageRequired": "Nachricht ist erforderlich",
+      "messageMin": "Mindestens 10 Zeichen"
+    }
+  },
+  "projects": {
+    "title": "Projekte",
+    "eventRave": "Event Rave ist eine Full-Stack-Webanwendung zur Verwaltung von Events mit Registrierung, Suche und sicherer Authentifizierung.",
+    "bodhi": "Eine responsive Webanwendung für ein Yogastudio mit Benutzerkonten, Buchungen und Abonnements.",
+    "bookery": "Bookery ist ein Online-Buchladen, der mit Next.js entwickelt wurde. Ziel war es, das Framework besser kennenzulernen.",
+    "moments": "Eine vereinfachte Social-Media-Anwendung ähnlich wie Instagram, entwickelt mit dem MERN-Stack und TypeScript.",
+    "pictures": "Eine Bildersuchanwendung zur Erkundung von Firebase und zur Vertiefung meiner React-Kenntnisse."
+  }
+}

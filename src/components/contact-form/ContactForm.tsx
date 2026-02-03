@@ -1,4 +1,6 @@
 'use client';
+import '../../i18n/i18n';
+import { useTranslation } from 'react-i18next';
 import { useState } from 'react';
 import styles from './ContactForm.module.css';
 import { useForm } from 'react-hook-form';
@@ -14,6 +16,7 @@ interface IFormData {
 }
 export const ContactForm = () => {
   const [success, setSuccess] = useState(false);
+  const { t } = useTranslation();
   const {
     register,
     handleSubmit,
@@ -47,21 +50,22 @@ export const ContactForm = () => {
   };
   return (
     <div className={styles.content}>
-      <h3>Let&apos;s work together</h3>
-      <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis
-        excepturi ullam exercitationem sit necessitatibus sint eos porro
-      </p>
+      <h3>{t('contact.header')}</h3>
+      <p>{t('contact.text')}</p>
       <form onSubmit={handleSubmit(onSubmit)} className={styles.form}>
         <div className={styles.row}>
           {' '}
           <input
-            placeholder='Name'
-            {...register('name', { required: 'Name is required' })}
+            placeholder={t('contact.name')}
+            {...register('name', {
+              required: t('contact.errors.nameRequired'),
+            })}
           />
           <input
-            placeholder='Surname'
-            {...register('surname', { required: 'Surname is required' })}
+            placeholder={t('contact.surname')}
+            {...register('surname', {
+              required: t('contact.errors.surnameRequired'),
+            })}
           />
         </div>
         {errors.name && <span>{errors.name.message}</span>}
@@ -71,37 +75,39 @@ export const ContactForm = () => {
             placeholder='Email'
             type='email'
             {...register('email', {
-              required: 'Email is required',
+              required: t('contact.errors.emailRequired'),
               pattern: {
                 value: /^\S+@\S+$/i,
-                message: 'Invalid email address',
+                message: t('contact.errors.emailInvalid'),
               },
             })}
           />
 
           <input
-            placeholder='Title'
-            {...register('title', { required: 'Title is required' })}
+            placeholder={t('contact.mesTitle')}
+            {...register('title', {
+              required: t('contact.errors.titleRequired'),
+            })}
           />
         </div>
         {errors.email && <span>{errors.email.message}</span>}
         {errors.title && <span>{errors.title.message}</span>}
 
         <textarea
-          placeholder='Your message'
+          placeholder={t('contact.message')}
           rows={5}
           {...register('message', {
-            required: 'Message is required',
+            required: t('contact.errors.messageRequired'),
             minLength: {
               value: 10,
-              message: 'Minimum 10 characters',
+              message: t('contact.errors.messageMin'),
             },
           })}
         />
         {errors.message && <span>{errors.message.message}</span>}
 
         <Button className={styles.btn} type='submit'>
-          Send message
+          {t('contact.button')}
         </Button>
         {success && <p className='success'>Message sent successfully!</p>}
       </form>

@@ -11,6 +11,10 @@
   color: var(--color-text);
   cursor: pointer;
   gap: 0.25rem;
+  transition: all 0.3s ease-in-out;
+}
+.btn:hover {
+  color: var(--color-accent);
 }
 .projects {
   display: flex;

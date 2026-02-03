@@ -3,6 +3,7 @@ import { Logo } from '@/shared/logo/Logo';
 import Nav from '../nav/Nav';
 import styles from './Header.module.css';
 import { MobileMenu } from '../mobile-menu/MobileMenu';
+import { LanguageSwitcher } from '../language-switcher/LanguagesSwitscher';
 
 export const Header = () => {
   return (
@@ -12,6 +13,10 @@ export const Header = () => {
       <div className={styles.menu}>
         {' '}
         <MobileMenu />
+      </div>
+      <div className={styles.switcher}>
+        {' '}
+        <LanguageSwitcher />
       </div>
     </header>
   );

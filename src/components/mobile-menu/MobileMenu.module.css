@@ -17,7 +17,11 @@
   z-index: 50;
   background: var(--color-bg);
 }
-
+.switcher {
+  position: absolute;
+  right: 25px;
+  top: 15px;
+}
 .nav.open {
   transform: translateX(0);
 }
@@ -30,7 +34,7 @@
   gap: 1rem;
   width: 100%;
   margin-right: 20px;
-  margin-top: 20px;
+  margin-top: 60px;
 }
 
 .list > li {

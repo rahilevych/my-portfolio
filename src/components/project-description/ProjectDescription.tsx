@@ -1,4 +1,6 @@
-import React from 'react';
+'use client';
+import '../../i18n/i18n';
+import { useTranslation } from 'react-i18next';
 import styles from './ProjectDescription.module.css';
 import { Project } from '@/data/projectsData';
 import Link from 'next/link';
@@ -13,11 +15,12 @@ export const ProjectDescription = ({
   index,
   project,
 }: ProjectDescriptionProps) => {
+  const { t } = useTranslation();
   return (
     <div className={styles.project}>
       <p>{index < 10 ? '0' + index : index}</p>
       <h3>{project.title}</h3>
-      <div className={styles.desc}>{project.desc}</div>
+      <div className={styles.desc}>{t(project.descKey)}</div>
       <ul className={styles.list}>
         {project.technologies.map((tech, index) => (
           <li key={tech}>

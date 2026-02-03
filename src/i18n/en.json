@@ -1,0 +1,51 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About me",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "position": "Software Developer",
+    "hello": "Hello I'm",
+    "about": "A Fullstack Developer passionate about creating interactive and responsive websites. I build applications with clean code and stable architecture. My goal is to turn ideas into digital products that people enjoy using"
+  },
+  "about": {
+    "title": "About",
+    "button": "Read more",
+    "textShort": "I'm a Fullstack Developer with over 1 year of experience creating websites and a Bachelor's degree in Computer Science, complemented by additional education in Fullstack Web Development. I specialize in building fullstack applications using React and TypeScript for the frontend, and Node.js as well as Node.js-based frameworks like NestJS for the backend.\n\nI'm passionate about good architecture and constantly strive to improve it. My experience in developing fullstack apps has given me a strong understanding of how frontend and backend systems interact.\n\nI love programming because it offers endless opportunities to learn, explore problems from different perspectives, and grow as a developer",
+    "textLong": "I'm a Fullstack Developer with over 1 year of experience creating websites and a Bachelor's degree in Computer Science, complemented by additional education in Fullstack Web Development. I specialize in building fullstack applications using React and TypeScript for the frontend, and Node.js as well as Node.js-based frameworks like NestJS for the backend.\n\nI'm passionate about good architecture and constantly strive to improve it. My experience in developing fullstack apps has given me a strong understanding of how frontend and backend systems interact. I love programming because it offers endless opportunities to learn, explore problems from different perspectives, and grow as a developer.\n\nOutside of work, I enjoy reading and practicing yoga, and I'm learning to play the piano. An interesting fact about me: I recently learned to do a headstand, and my next goal is to master handstands. I love spending time outdoors, walking in the silence of mountains or by the sea, and I’m passionate about traveling and discovering new places.\n\nFollow me on LinkedIn - let’s connect!"
+  },
+  "skills": {
+    "title": "Skills"
+  },
+  "contact": {
+    "title": "Contact",
+    "header": "Let’s work together",
+    "button": "Send message",
+    "text": "Have a project in mind or a question? Feel free to reach out - I’d be happy to hear from you",
+    "name": "Name",
+    "surname": "Surname",
+    "mesTitle": "Title",
+    "message": "Your message",
+    "location": "Location",
+    "address": "Berlin, Germany",
+    "errors": {
+      "nameRequired": "Name is required",
+      "surnameRequired": "Surname is required",
+      "emailRequired": "Email is required",
+      "emailInvalid": "Invalid email address",
+      "titleRequired": "Title is required",
+      "messageRequired": "Message is required",
+      "messageMin": "Minimum 10 characters"
+    }
+  },
+  "projects": {
+    "title": "Projects",
+    "eventRave": "Event Rave is a full-stack event management web application that allows users to register, create, search, and manage events with secure authentication.",
+    "bodhi": "A responsive web application for a yoga studio where users can create an account, purchase subscriptions, book training sessions, and manage their profile.",
+    "bookery": "Bookery is an online bookstore built with Next.js. The main goal of this project was to explore the Next.js framework and its capabilities.",
+    "moments": "A simplified Instagram-like social media application built with the MERN stack and TypeScript.",
+    "pictures": "An image search application built to explore Firebase and deepen my knowledge of React."
+  }
+}

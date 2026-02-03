@@ -1,4 +1,6 @@
 'use client';
+import { useTranslation } from 'react-i18next';
+import '../../i18n/i18n';
 import styles from './ProjectSection.module.css';
 import { SectionTitle } from '../section-title/SectionTitle';
 import { FaArrowRightLong } from 'react-icons/fa6';
@@ -7,6 +9,7 @@ import { ProjectComponent } from '../project/ProjectComponent';
 import { Project, projects } from '@/data/projectsData';
 import Link from 'next/link';
 export const ProjectSection = () => {
+  const { t } = useTranslation();
   return (
     <motion.section
       className='section'
@@ -16,7 +19,7 @@ export const ProjectSection = () => {
       transition={{ duration: 0.8, ease: 'easeOut' }}
     >
       <div className={styles.title}>
-        <SectionTitle>Projects</SectionTitle>
+        <SectionTitle>{t('projects.title')}</SectionTitle>
         <Link href='projects' className={styles.btn}>
           <span>View all </span>
           <FaArrowRightLong />

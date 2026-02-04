@@ -8,6 +8,8 @@ import { motion } from 'framer-motion';
 import { Photo } from '../photo/Photo';
 import { usePathname } from 'next/navigation';
 import { useTranslation } from 'react-i18next';
+import { Social } from '../socials/Social';
+import { div } from 'framer-motion/client';
 
 export const About = ({ text }: { text: string }) => {
   const pathname = usePathname();
@@ -40,6 +42,14 @@ export const About = ({ text }: { text: string }) => {
               {' '}
               <Button type='button'>{t('about.button')}</Button>
             </Link>
+          ) : (
+            <></>
+          )}
+          {pathname === '/about' ? (
+            <div className={styles.socials}>
+              {' '}
+              <Social />
+            </div>
           ) : (
             <></>
           )}

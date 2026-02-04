@@ -37,6 +37,10 @@
   width: 150px;
   height: 50px;
 }
+.socials {
+  margin-top: 1rem;
+  align-self: flex-start;
+}
 @media (max-width: 1200px) {
   .content {
     flex-direction: column;
@@ -56,5 +60,8 @@
 @media (max-width: 625px) {
   .text {
     text-align: center;
+  }
+  .socials {
+    align-self: center;
   }
 }

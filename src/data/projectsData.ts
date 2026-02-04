@@ -23,8 +23,8 @@ export const projects: Project[] = [
     technologies: ['TypeScript', 'React', 'Next.js'],
     descKey: 'projects.portfolio',
     img: '/img/portfolio.png',
-    git: 'https://github.com/rahilevych/portfolio',
-    link: 'https://rahilevych-portfolio.vercel.app/',
+    git: 'https://github.com/rahilevych/my-portfolio',
+    link: 'https://my-portfolio-alona-rahilevych.vercel.app/',
     type: 'frontend',
   },
   {

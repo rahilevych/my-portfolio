@@ -31,7 +31,7 @@ export const ProjectDescription = ({
       </ul>
       <div className={styles.line}></div>
       <div className={styles.buttons}>
-        <Link href={project.git}>
+        <Link target='__blank' href={project.git}>
           <Button className={styles.btn}>
             <Image
               src='/icons/github.svg'
@@ -41,7 +41,7 @@ export const ProjectDescription = ({
             />
           </Button>
         </Link>
-        <Link href={project.git}>
+        <Link target='__blank' href={project.link}>
           <Button className={styles.btn}>
             {' '}
             <Image

@@ -4,6 +4,8 @@ import '../../i18n/i18n';
 import styles from './ProjectComponent.module.css';
 import { Project } from '@/data/projectsData';
 import Image from 'next/image';
+import Link from 'next/link';
+import { Button } from '@/shared/logo/button/Button';
 
 export const ProjectComponent = ({ project }: { project: Project }) => {
   const { t } = useTranslation();
@@ -25,6 +27,29 @@ export const ProjectComponent = ({ project }: { project: Project }) => {
             </li>
           ))}{' '}
         </ul>
+        <div className={styles.buttons}>
+          <Link target='__blank' href={project.git}>
+            <Button className={styles.btn}>
+              <Image
+                src='/icons/github.svg'
+                alt='GitHub icon'
+                width={24}
+                height={24}
+              />
+            </Button>
+          </Link>
+          <Link target='__blank' href={project.link}>
+            <Button className={styles.btn}>
+              {' '}
+              <Image
+                src='/icons/live.svg'
+                alt='live icon'
+                width={24}
+                height={24}
+              />
+            </Button>
+          </Link>
+        </div>
       </div>
     </div>
   );

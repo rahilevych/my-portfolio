@@ -45,38 +45,35 @@ export const ContactSection = () => {
               <p>{t('contact.address')}</p>
             </div>
           </li>
-          {pathname === '/contact' ? (
-            <>
-              <li>
-                <div className={styles.icon}>
-                  <FaLinkedin />
-                </div>
-                <Link
-                  href='https://www.linkedin.com/in/alona-rahilevych/'
-                  className={styles.info}
-                >
-                  <span>LinkedIn</span>
-                  <br />
-                  <p>/in/alona-rahilevych/</p>
-                </Link>
-              </li>
-              <li>
-                <div className={styles.icon}>
-                  <FaGithub />
-                </div>
-                <Link
-                  href='https://github.com/rahilevych'
-                  className={styles.info}
-                >
-                  <span>GitHub</span>
-                  <br />
-                  <p>/github.com/rahilevych</p>
-                </Link>
-              </li>
-            </>
-          ) : (
-            <></>
-          )}
+
+          <li>
+            <div className={styles.icon}>
+              <FaLinkedin />
+            </div>
+            <Link
+              target='__blank'
+              href='https://www.linkedin.com/in/alona-rahilevych/'
+              className={styles.info}
+            >
+              <span>LinkedIn</span>
+              <br />
+              <p>/in/alona-rahilevych/</p>
+            </Link>
+          </li>
+          <li>
+            <div className={styles.icon}>
+              <FaGithub />
+            </div>
+            <Link
+              target='__blank'
+              href='https://github.com/rahilevych'
+              className={styles.info}
+            >
+              <span>GitHub</span>
+              <br />
+              <p>/github.com/rahilevych</p>
+            </Link>
+          </li>
         </ul>
       </div>
     </motion.section>

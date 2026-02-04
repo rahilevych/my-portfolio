@@ -5,9 +5,12 @@ import { ContactForm } from '../contact-form/ContactForm';
 import styles from './ContactSection.module.css';
 import { SectionTitle } from '../section-title/SectionTitle';
 import { motion } from 'framer-motion';
-import { FaEnvelope } from 'react-icons/fa';
+import { FaEnvelope, FaGithub, FaLinkedin } from 'react-icons/fa';
 import { FaMapLocation } from 'react-icons/fa6';
+import { usePathname } from 'next/navigation';
+import Link from 'next/link';
 export const ContactSection = () => {
+  const pathname = usePathname();
   const { t } = useTranslation();
   return (
     <motion.section
@@ -42,6 +45,38 @@ export const ContactSection = () => {
               <p>{t('contact.address')}</p>
             </div>
           </li>
+          {pathname === '/contact' ? (
+            <>
+              <li>
+                <div className={styles.icon}>
+                  <FaLinkedin />
+                </div>
+                <Link
+                  href='https://www.linkedin.com/in/alona-rahilevych/'
+                  className={styles.info}
+                >
+                  <span>LinkedIn</span>
+                  <br />
+                  <p>/in/alona-rahilevych/</p>
+                </Link>
+              </li>
+              <li>
+                <div className={styles.icon}>
+                  <FaGithub />
+                </div>
+                <Link
+                  href='https://github.com/rahilevych'
+                  className={styles.info}
+                >
+                  <span>GitHub</span>
+                  <br />
+                  <p>/github.com/rahilevych</p>
+                </Link>
+              </li>
+            </>
+          ) : (
+            <></>
+          )}
         </ul>
       </div>
     </motion.section>

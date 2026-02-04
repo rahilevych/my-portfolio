@@ -22,14 +22,17 @@
   background-color: rgba(253, 242, 248, 0.2);
   height: 460px;
   position: relative;
+  border-radius: 6px;
 }
 .img {
   position: relative;
   width: 100%;
   height: 100%;
+  border-radius: 6px;
 }
 .img img {
   object-fit: cover;
+  border-radius: 6px;
 }
 .overlay {
   position: absolute;

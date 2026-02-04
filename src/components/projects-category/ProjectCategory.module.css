@@ -1,8 +1,9 @@
 .category {
   display: flex;
   flex-direction: column;
-  margin-top: 5rem;
+  margin-top: 4rem;
   width: 100%;
+  margin-bottom: 3rem;
 }
 .category h2 {
   text-transform: capitalize;

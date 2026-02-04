@@ -9,7 +9,10 @@ i18n
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
-    resources: { en: { translation: en }, de: { translation: de } },
+    resources: {
+      en: { translation: en },
+      de: { translation: de },
+    },
     fallbackLng: 'en',
     interpolation: { escapeValue: false },
     detection: {

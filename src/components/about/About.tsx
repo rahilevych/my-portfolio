@@ -27,7 +27,7 @@ export const About = ({ text }: { text: string }) => {
           initial={{ opacity: 0 }}
           animate={{
             opacity: 1,
-            transition: { delay: 1.7, duration: 0.8, ease: 'easeInOut' },
+            transition: { delay: 1, duration: 0.8, ease: 'easeInOut' },
           }}
         >
           <Photo />

@@ -6,6 +6,7 @@ import React from 'react';
 import { PageTransition } from '@/components/page-transition/PageTransition';
 import { StairTransition } from '@/components/stair-transition/StairTransition';
 import { Header } from '@/components/header/Header';
+import { Footer } from '@/components/footer/Footer';
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -29,6 +30,7 @@ export default function RootLayout({
         <Header />
         <StairTransition />
         <PageTransition> {children}</PageTransition>
+        <Footer />
       </body>
     </html>
   );

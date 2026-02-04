@@ -8,6 +8,7 @@
   "hero": {
     "position": "Fullstack Entwicklerin",
     "hello": "Hallo ich bin",
+    "name": "Alona Rahilevych",
     "about": "Ich bin Fullstack Entwicklerin und begeistere mich dafür, interaktive und responsive Websites zu bauen. Ich achte auf sauberen Code und stabile Architektur. Ich möchte Ideen in digitale Produkte verwandeln, die Menschen gerne verwenden"
   },
   "about": {
@@ -42,6 +43,7 @@
   },
   "projects": {
     "title": "Projekte",
+    "portfolio": "Meine persönliche Portfolio-Website zeigt meine Projekte und Fähigkeiten. Erstellt mit React, TypeScript und Nest.js. Ein Frontend-Projekt mit interaktiver Benutzeroberfläche und responsivem Design.",
     "eventRave": "Event Rave ist eine Full-Stack-Webanwendung zur Verwaltung von Events mit Registrierung, Suche und sicherer Authentifizierung.",
     "bodhi": "Eine responsive Webanwendung für ein Yogastudio mit Benutzerkonten, Buchungen und Abonnements.",
     "bookery": "Bookery ist ein Online-Buchladen, der mit Next.js entwickelt wurde. Ziel war es, das Framework besser kennenzulernen.",

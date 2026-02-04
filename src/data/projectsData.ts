@@ -1,7 +1,7 @@
 export interface Project {
   title: string;
   technologies: string[];
-  desc: string;
+  descKey: string;
   img: string;
   git: string;
   link: string;
@@ -12,11 +12,20 @@ export const projects: Project[] = [
   {
     title: 'Event Rave',
     technologies: ['TypeScript', 'React', 'PostgreSQL', 'Nest.js'],
-    desc: 'Event Rave — a full-stack event management web app built with React, TypeScript, Nest.js, and PostgreSQL. It allows users to register, create, search, and manage events with secure authentication (JWT).',
-    img: '/img/event.png',
+    descKey: 'projects.eventRave',
+    img: '/img/events.png',
     git: 'https://github.com/rahilevych/event-rave',
     link: 'https://event-rave.vercel.app/',
     type: 'fullstack',
+  },
+  {
+    title: 'Portfolio Website',
+    technologies: ['TypeScript', 'React', 'Next.js'],
+    descKey: 'projects.portfolio',
+    img: '/img/portfolio.png',
+    git: 'https://github.com/rahilevych/portfolio',
+    link: 'https://rahilevych-portfolio.vercel.app/',
+    type: 'frontend',
   },
   {
     title: 'Bodhi Balance',
@@ -29,7 +38,7 @@ export const projects: Project[] = [
       'React Testing Library',
       'Jest',
     ],
-    desc: 'A responsive web application for a yoga studio where users can create an account, purchase subscriptions, book training sessions, and manage their personal profiles',
+    descKey: 'projects.bodhi',
     img: '/img/bodhi.png',
     git: 'https://github.com/rahilevych/bodhi-balance',
     link: 'https://bodhi-balance-8ucr.vercel.app',
@@ -45,8 +54,8 @@ export const projects: Project[] = [
       'Next',
       'MongoDB',
     ],
-    desc: 'Bookery is a bookstore built with Next.js. The main goal of this project was to get acquainted with Next.js. ',
-    img: '/img/bookery.png',
+    descKey: 'projects.bookery',
+    img: '/img/books.png',
     git: 'https://github.com/rahilevych/bookery',
     link: 'https://bookery-sbic.vercel.app/',
     type: 'fullstack',
@@ -60,12 +69,10 @@ export const projects: Project[] = [
       'Node.js',
       'Express.js',
       'Socket.IO',
-      'React Testing Library',
       'Jest',
     ],
-    desc: 'A simplified version of Instagram built with the MERN stack and TypeScript.',
-    img: '/img/moments.png',
-
+    descKey: 'projects.moments',
+    img: '/img/inst.png',
     git: 'https://github.com/rahilevych/moments',
     link: 'https://moments-client1.onrender.com',
     type: 'fullstack',
@@ -73,8 +80,8 @@ export const projects: Project[] = [
   {
     title: 'Pictures',
     technologies: ['HTML5', 'CSS3', 'TypeScript', 'ReactJS', 'Firebase'],
-    desc: 'This project was built to familiarize myself with Firebase and deepen my knowledge of React.js.',
-    img: '/img/pictures.png',
+    descKey: 'projects.pictures',
+    img: '/img/picture.png',
     git: 'https://github.com/rahilevych/pictures',
     link: 'https://pictures-sigma.vercel.app/',
     type: 'frontend',

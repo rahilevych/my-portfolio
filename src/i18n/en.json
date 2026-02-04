@@ -8,6 +8,7 @@
   "hero": {
     "position": "Software Developer",
     "hello": "Hello I'm",
+    "name": "Alona Rahilevych",
     "about": "A Fullstack Developer passionate about creating interactive and responsive websites. I build applications with clean code and stable architecture. My goal is to turn ideas into digital products that people enjoy using"
   },
   "about": {
@@ -41,6 +42,7 @@
     }
   },
   "projects": {
+    "portfolio": "My personal portfolio website showcasing my projects and skills. Built with React, TypeScript, and Nest.js. Frontend-focused project with interactive UI and responsive design",
     "title": "Projects",
     "eventRave": "Event Rave is a full-stack event management web application that allows users to register, create, search, and manage events with secure authentication.",
     "bodhi": "A responsive web application for a yoga studio where users can create an account, purchase subscriptions, book training sessions, and manage their profile.",

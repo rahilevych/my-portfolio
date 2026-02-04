@@ -1,0 +1,16 @@
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  width: 100%;
+}
+.btn {
+  display: flex;
+  padding: 0 !important;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50% !important;
+  width: 40px;
+  height: 40px;
+}

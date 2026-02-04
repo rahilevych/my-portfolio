@@ -11,11 +11,9 @@ export const Header = () => {
       <Logo />
       <Nav />
       <div className={styles.menu}>
-        {' '}
         <MobileMenu />
       </div>
       <div className={styles.switcher}>
-        {' '}
         <LanguageSwitcher />
       </div>
     </header>

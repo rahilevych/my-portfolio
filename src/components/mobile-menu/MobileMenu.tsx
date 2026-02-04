@@ -8,6 +8,7 @@ import { navLinks } from '@/data/navData';
 import { useTranslation } from 'react-i18next';
 import '../../i18n/i18n';
 import { LanguageSwitcher } from '../language-switcher/LanguagesSwitscher';
+import { Social } from '../socials/Social';
 
 export const MobileMenu = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -59,6 +60,9 @@ export const MobileMenu = () => {
             );
           })}
         </ul>
+        <div className={styles.socials}>
+          <Social />
+        </div>
       </nav>
     </div>
   );

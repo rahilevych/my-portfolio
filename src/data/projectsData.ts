@@ -28,6 +28,15 @@ export const projects: Project[] = [
     type: 'frontend',
   },
   {
+    title: 'Whitepace',
+    technologies: ['TypeScript', 'React'],
+    descKey: 'projects.whitepace',
+    img: '/img/whitepace.png',
+    git: 'https://github.com/rahilevych/whitepace',
+    link: 'https://whitepace-wheat-three.vercel.app/',
+    type: 'frontend',
+  },
+  {
     title: 'Bodhi Balance',
     technologies: [
       'TypeScript',

@@ -48,6 +48,7 @@
     "bodhi": "A responsive web application for a yoga studio where users can create an account, purchase subscriptions, book training sessions, and manage their profile.",
     "bookery": "Bookery is an online bookstore built with Next.js. The main goal of this project was to explore the Next.js framework and its capabilities.",
     "moments": "A simplified Instagram-like social media application built with the MERN stack and TypeScript.",
-    "pictures": "An image search application built to explore Firebase and deepen my knowledge of React."
+    "pictures": "An image search application built to explore Firebase and deepen my knowledge of React.",
+    "whitepace": "Whitepace is a frontend project built with React and TypeScript, focusing on modern UI/UX, fully responsive design, and smooth animations using Framer Motion. This project helped me improve my layout skills, component architecture, and interactive design."
   }
 }

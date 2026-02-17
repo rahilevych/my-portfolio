@@ -44,6 +44,7 @@
   "projects": {
     "portfolio": "My personal portfolio website showcasing my projects and skills. Built with React, TypeScript, and Nest.js. Frontend-focused project with interactive UI and responsive design",
     "title": "Projects",
+    "myf": "A comprehensive Project Management System (ERP) designed for efficient workflow tracking. Features include role-based access control (RBAC), complex CRUD operations for projects and tasks, and a modern dashboard built with Shadcn/ui. Backend powered by NestJS and Prisma for high-performance data handling.",
     "eventRave": "Event Rave is a full-stack event management web application that allows users to register, create, search, and manage events with secure authentication.",
     "bodhi": "A responsive web application for a yoga studio where users can create an account, purchase subscriptions, book training sessions, and manage their profile.",
     "bookery": "Bookery is an online bookstore built with Next.js. The main goal of this project was to explore the Next.js framework and its capabilities.",

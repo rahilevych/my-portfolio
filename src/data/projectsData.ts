@@ -10,6 +10,23 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    title: 'M.Y.F. - Project Management System',
+    technologies: [
+      'TypeScript',
+      'Nest.js',
+      'PostgreSQL',
+      'Prisma',
+      'React',
+      'Shadcn/ui',
+      'Tailwind CSS',
+    ],
+    descKey: 'projects.myf',
+    img: '/img/dm.png',
+    git: 'https://github.com/rahilevych/manage-your-flow',
+    link: 'https://manage-your-flow.vercel.app/',
+    type: 'fullstack',
+  },
+  {
     title: 'Event Rave',
     technologies: ['TypeScript', 'React', 'PostgreSQL', 'Nest.js'],
     descKey: 'projects.eventRave',

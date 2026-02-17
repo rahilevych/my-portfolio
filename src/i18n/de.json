@@ -43,6 +43,7 @@
   },
   "projects": {
     "title": "Projekte",
+    "myf": "Ein umfassendes Projektmanagementsystem (ERP) zur effizienten Workflow-Verfolgung. Zu den Funktionen gehören rollenbasierte Zugriffskontrolle (RBAC), komplexe CRUD-Operationen für Projekte und Aufgaben sowie ein modernes Dashboard mit Shadcn/ui. Backend entwickelt mit NestJS und Prisma für erstklassige Datenverarbeitung.",
     "portfolio": "Meine persönliche Portfolio-Website zeigt meine Projekte und Fähigkeiten. Erstellt mit React, TypeScript und Nest.js. Ein Frontend-Projekt mit interaktiver Benutzeroberfläche und responsivem Design.",
     "eventRave": "Event Rave ist eine Full-Stack-Webanwendung zur Verwaltung von Events mit Registrierung, Suche und sicherer Authentifizierung.",
     "bodhi": "Eine responsive Webanwendung für ein Yogastudio mit Benutzerkonten, Buchungen und Abonnements.",
